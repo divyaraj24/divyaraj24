@@ -1,41 +1,35 @@
-# Hi, I am Divyaraj
+# Hi, I'm Divyaraj
 
-Computer Science undergraduate interested in backend development, cloud, and practical system design.
+Got into backend and infra through Factorio, of all things — now I build the
+real-world version. CS undergrad at VIT Vellore ('27).
 
-## Featured Projects
+## What I've built
 
-### OrgLens
+**[EventPulse](https://github.com/divyaraj24/EventPulse)** — a webhook
+delivery pipeline deliberately subjected to controlled chaos, to measure
+exactly when retry stops helping and starts sustaining the outage it was
+meant to fix. Implements RetryGuard (Tavori et al., 2025) as a real adaptive
+retry policy: 89% less retry traffic, 100% of events resolved vs. 47-53%
+left unresolved under naive backoff, 6.0s recovery vs. no recovery within
+360s.
 
-Ownership intelligence platform for repositories.
+**LLM API Gateway** — weighted routing across multiple LLM providers with
+per-provider circuit breakers (Closed/Open/Half-Open) and atomic
+Redis-Lua rate limiting. Pushing this to GitHub soon.
 
-- Built a 3-layer architecture for cloud ingestion, analytics APIs, and observability
-- Implemented webhook plus backfill ingestion, dedup semantics, and queue-backed processing
-- Added risk analytics endpoints and Prometheus plus Grafana monitoring
+**OrgLens** — scores GitHub repos for bus factor and ownership drift: who'd
+hurt a project most by leaving, and whether anyone's positioned to take
+over. Currently rebuilding it in Spring Boot.
 
-Repo: https://github.com/divyaraj24/OrgLens
+## Stack
 
-### API Rate Limiter plus Audit Logging
+Python (FastAPI), Java (Spring Boot), Redis, PostgreSQL, Docker
 
-Spring Boot and Redis service for per-user per-endpoint traffic control.
+## Right now
 
-- Implemented token bucket limits in Redis using Lua for atomic refill and consume
-- Added tier-based limits and request-level audit logging with trace metadata
-- Exposed clear API behavior for throttling and operational verification
+Working through DSA (NeetCode + Codeforces contests), rebuilding OrgLens,
+open to backend/distributed-systems roles off-campus.
 
-Repo: https://github.com/divyaraj24/api-rate-limiter-audit-logging
+## Elsewhere
 
-### Studbud
-
-AI-assisted personalized study planner.
-
-- Fine-tuned BERT for intent classification (Exam, Project, Mastery)
-- Combined structured extraction and plan generation flow using Gemini
-- Built end-to-end Streamlit workflow from user input to generated plan
-
-Repo: https://github.com/divyaraj24/study-planner
-
-## Connect
-
-- LinkedIn: https://www.linkedin.com/in/divyaraj24/
-- GitHub: https://github.com/divyaraj24
-- Email: divyarajdeepak2356@gmail.com
+[Portfolio](https://divyaraj24.in) · [LinkedIn](https://www.linkedin.com/in/divyaraj24/) · divyarajdeepak2356@gmail.com
