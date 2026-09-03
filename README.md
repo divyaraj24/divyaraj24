@@ -1,7 +1,6 @@
 # Hi, I'm Divyaraj
 
-Got into backend and infra through Factorio, of all things — now I build the
-real-world version. CS undergrad at VIT Vellore ('27).
+CS undergrad at VIT Vellore ('27), into backend and infra.
 
 ## What I've built
 
