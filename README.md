@@ -19,11 +19,11 @@ Redis-Lua rate limiting. Pushing this to GitHub soon.
 
 **OrgLens** — scores GitHub repos for bus factor and ownership drift: who'd
 hurt a project most by leaving, and whether anyone's positioned to take
-over. Currently rebuilding it in Go.
+over. Currently rebuilding it in Spring Boot.
 
 ## Stack
 
-Python (FastAPI), Go, Redis, PostgreSQL, Docker
+Python (FastAPI), Go, Java (Spring Boot), Redis, PostgreSQL, Docker
 
 ## Right now
 
